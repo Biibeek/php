@@ -1,8 +1,9 @@
 <?php
-define("name", "bibek");
-echo name;
+// Defining a constant
+define("message", "hello world!!!");
+echo message . "\n";
 
-$nick = "bibbeekk";
-echo $nick;
-
+// Defining a variable
+$msg = "hello world!!!";
+echo $msg;
 ?>
