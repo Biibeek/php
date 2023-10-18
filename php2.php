@@ -1,23 +1,40 @@
 <?php
-//defining function before calling 
+//1.defining function before calling 
 function greet(){
-    echo 'hello';
+    echo 'hello<br/>';
 }
 greet();
 
 
-//defining function after calling them
+//2.defining function after calling them
 message();
 function message(){
-    echo 'thanks for joining';
+    echo 'thanks for joining<br/>';
 }
-//function along with three parameters
+//3.function along with three parameters
 function product($num1,$num2,$num3){
     $product = $num1*$num2*$num3;
-    echo "The product is $product";
+    echo "The product is $product<br/>";
 }
 
-//calling the function
+//4.calling the function
 //passing three arguments
 product(2,3,5);
+
+
+
+//5.default value for function parameter
+function sayHello($name="John"){
+    echo "Hello $name<br/>";
+}
+
+sayHello("Romeo");
+sayHello();
+sayHello("Johnny");
+
+//6.returning values from function
+function cube($n){
+    return $n*$n*$n;
+}
+echo "cube of 3 is :".cube(3);
 ?>
