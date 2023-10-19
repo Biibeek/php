@@ -5,7 +5,7 @@
 <body>
      <form method="post" action="process-form.php">
         <div>
-            
+            <!--for/id and name must be same-->
             <label for="name"> Name:</label>
             <input type="text" name="name" required="required" placeholder="Enter your name"/>
 </div>
