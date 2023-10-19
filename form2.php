@@ -4,6 +4,7 @@
 </head>
 <body>
     <main>
+        <!--The line tells the form where to send its data (the current PHP script) while making sure it's safe from security issues.-->
         <form method="post" action="<?php htmlspecialchars($_SERVER['PHP_SELF'])?>">
         <div>
         <label for="name"> Name:</label>
